@@ -25,12 +25,7 @@ public class Test {
 
         System.out.println();
 
-        System.out.println(a.matches("-?\\d*"));
-        System.out.println(b.matches("-?\\d*"));
-        System.out.println(c.matches("-?\\d*"));
-        System.out.println();
-        System.out.println(a.matches("(\\+|-)?\\d*"));
-        System.out.println(b.matches("(\\+|-)?\\d*"));
+                System.out.println(b.matches("(\\+|-)?\\d*"));
         System.out.println(c.matches("(\\+|-)?\\d*"));
     }
 }
