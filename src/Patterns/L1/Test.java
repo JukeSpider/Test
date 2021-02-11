@@ -23,6 +23,8 @@ public class Test {
         String b = "-13210";
         String c = "13210";
 
+        System.out.println();
+
         System.out.println(a.matches("-?\\d*"));
         System.out.println(b.matches("-?\\d*"));
         System.out.println(c.matches("-?\\d*"));
